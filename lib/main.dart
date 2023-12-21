@@ -9,7 +9,6 @@ class MyGame extends FlameGame {
     // Arka planı yükle
     await setBackground('background.png');
     // Kaleleri yerleştir
-    add(Tower());
   }
 
   Future<void> setBackground(String fileName) async {

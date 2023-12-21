@@ -1,5 +1,5 @@
 import 'package:flame/components.dart';
-import 'package:tower__defense/game.dart';
+import 'package:tower__defense/main.dart';
 
 
 class Tower extends SpriteComponent with HasGameRef<MyGame> {
